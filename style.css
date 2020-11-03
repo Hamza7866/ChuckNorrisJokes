@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Itim', cursive
+}
+.container{
+    min-height: 100vh;
+    background: linear-gradient(rgba(141, 108, 64, 0.61),#21134798) ,url('./man-161135_1280.png') no-repeat center center/cover;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90wh;
+    margin: auto;
+    
+}
+.jokes{
+    background: rgba(18, 26, 34, 0.692);
+    line-height: 70px;
+    letter-spacing: 2px;
+    border-radius: 0px 100px 0px 100px;
+    padding: 4rem;
+    font-size: 4rem;
+    box-shadow: -8px 2px 22px 6px rgba(71, 54, 54, 0.66);
+    width: 90%;
+    margin: auto;
+   
+}
+.btn-container{
+   margin: 20px 0px;
+    min-height: 5vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+        box-shadow: 2px 8px 29px -5px #3dc21b;
+        background:linear-gradient(to bottom, rgba(12, 22, 14, 0.521) 5%, #5cbf2a 100%);
+        background-color:#44c767;
+        border-radius:20px;
+        border:2px solid #909c92;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:28px;
+        font-weight:bold;
+        padding:10px 36px;
+        text-decoration:none;
+        text-shadow:-1px 4px 0px #2f6627;
+      }
+button:hover{
+    background-color: #0f200c;
+}
